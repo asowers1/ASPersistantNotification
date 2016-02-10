@@ -1,0 +1,6 @@
+framework module ASPersistantNotification {
+  umbrella header "ASPersistantNotification-umbrella.h"
+
+  export *
+  module * { export * }
+}

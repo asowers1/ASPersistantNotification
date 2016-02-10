@@ -9,22 +9,18 @@
 Pod::Spec.new do |s|
   s.name             = "ASPersistantNotification"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ASPersistantNotification."
+  s.summary          = "ASPersistantNotification provides an in-app notification banner."
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+ASPersistantNotification banner that is remnisiant of Apple's in-call, audio recording, and thethering banners. The notificaiton view itself is based on the MVP pattern, offers convient delegates, and visual customization to fit your needs.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ASPersistantNotification"
+  s.homepage         = "https://github.com/asowers1/ASPersistantNotification"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "asowers" => "andrew.sowers@yourkarma.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ASPersistantNotification.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "asowers1" => "asow123@gmail.com" }
+  s.source           = { :git => "https://github.com/asowers1/ASPersistantNotification.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/andrewsowers'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
